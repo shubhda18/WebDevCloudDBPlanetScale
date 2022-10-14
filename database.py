@@ -28,10 +28,10 @@ def load_job_from_db(id):
 
 def add_application_to_db(job_id,data):
   with engine.connect() as conn:
-    query = text("INSERT into applications (job_id, full_name, email, linkedin_url, github_url, education, work_experience, resume_url) VALUES(:job_id, :full_name, :email, :linkedin_url, :github_url, :education, :work_experice, :resume_url)
+    query = text("INSERT into applications (job_id, full_name, email, linkedin_url, github_url, education, work_experience, resume_url) VALUES(:job_id, :full_name, :email, :linkedin_url, :github_url, :education, :work_experice, :resume_url")
 
   conn.execute(query,job_id=job_id, full_name=data['full_name'],
-              email=data['full_name'],
+              email=data['email'],
               linkedin_url=data['linkedin'],
               github_url=data['github'],
               education=data['education'],
