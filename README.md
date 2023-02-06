@@ -1,6 +1,6 @@
 # WebDevCloudDBPlanetScale
 
-## Create a Web Development Project and Integrate with Planet Scale.
+## Create a Web Development Project and Integrate with Cloud Database at Planet Scale.
 **Objective**
 
 1. Connect a Flask web application to a cloud MySQL database
