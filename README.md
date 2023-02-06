@@ -1,5 +1,3 @@
-# WebDevCloudDBPlanetScale
-
 ## Create a Web Development Project and Integrate with Cloud Database at Planet Scale.
 **Objective**
 
